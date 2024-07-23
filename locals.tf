@@ -14,7 +14,7 @@ locals {
     },
     "fem-eci-github" = {
       description = "This is second workspace for managing GitHub"
-      execution_mode = "local"
+      execution_mode = "remote"
       project_id = module.project["fem-eci-project"].id
       vcs_repo_identifier = "${var.github_organization_name}/371fem-eci-terraform-github"
     }
