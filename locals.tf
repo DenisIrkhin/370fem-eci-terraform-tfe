@@ -23,7 +23,7 @@ locals {
       description = "This is third workspace for managing AWS networks"
       execution_mode = "remote"
       project_id = module.project["fem-eci-project"].id
-      vcs_repo_identifier = "${var.github_organization_name}/372fem-eci-terraform-network"
+      vcs_repo_identifier = "${var.github_organization_name}/372fem-eci-terraform-aws-network"
 
       variables = [
         {
@@ -49,7 +49,7 @@ locals {
       description = "This is forth workspace for managing AWS clusters"
       execution_mode = "remote"
       project_id = module.project["fem-eci-project"].id
-      vcs_repo_identifier = "${var.github_organization_name}/372fem-eci-terraform-cluster"
+      vcs_repo_identifier = "${var.github_organization_name}/372fem-eci-terraform-aws-cluster"
 
             variables = [
         {
