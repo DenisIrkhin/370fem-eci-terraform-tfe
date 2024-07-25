@@ -79,7 +79,7 @@ locals {
       description         = "Automation for product service resources."
       execution_mode      = "remote"
       project_id          = module.project["fem-eci-project"].id
-      vcs_repo_identifier = "${var.github_organization_name}/fem-eci-terraform-product-service"
+      vcs_repo_identifier = "${var.github_organization_name}/374fem-eci-terraform-product-service"
 
       variables = [
         {
