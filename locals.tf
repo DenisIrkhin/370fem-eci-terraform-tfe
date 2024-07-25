@@ -45,7 +45,7 @@ locals {
       ]  
     }
 
-    "fem-eci-clusters-prod" = {
+    "fem-eci-cluster-prod" = {
       description = "This is forth workspace for managing AWS clusters"
       execution_mode = "remote"
       project_id = module.project["fem-eci-project"].id
