@@ -49,7 +49,7 @@ locals {
       description = "This is forth workspace for managing AWS clusters"
       execution_mode = "remote"
       project_id = module.project["fem-eci-project"].id
-      vcs_repo_identifier = "${var.github_organization_name}/372fem-eci-terraform-aws-cluster"
+      vcs_repo_identifier = "${var.github_organization_name}/373fem-eci-terraform-aws-cluster"
 
             variables = [
         {
